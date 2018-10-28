@@ -57,7 +57,7 @@ html {
   background-color: #202020;
 }
 
-.sidebar img {
+.profile-pic {
   display: none;
 }
 
@@ -71,7 +71,7 @@ html {
     text-align: left;
   }
 
-  .sidebar img {
+  .profile-pic {
     display: block;
   }
 }

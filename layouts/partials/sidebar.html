@@ -1,7 +1,7 @@
 <aside class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      {{if .Site.Params.Image}}<img src="{{ .Site.Params.Image }}" alt="Profile Picture" />{{end}}
+      {{if .Site.Params.Image}}<img class="profile-pic" src="{{ .Site.Params.Image }}" alt="Profile Picture" />{{end}}
       <a href="{{ .Site.BaseURL }}">
         <h1>{{ .Site.Title }}</h1>
       </a>
